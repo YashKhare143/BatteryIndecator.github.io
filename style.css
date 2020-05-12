@@ -17,6 +17,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    transform: rotate(180deg);
 }
 
 .top {
@@ -24,7 +25,7 @@ body {
     width: 15px;
     border: 2px solid white;
     position: absolute;
-    bottom: 100%;
+    top: 100%;
     left: 39%;
 }
 
