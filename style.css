@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #262626;
+}
+
+.container {
+    height: 150px;
+    width: 80px;
+    border: 2px solid white;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.top {
+    height: 5px;
+    width: 15px;
+    border: 2px solid white;
+    position: absolute;
+    top: 100%;
+    left: 39%;
+}
+
+.charging {
+    position: absolute;
+    background-color: #00E676;
+    height: ;
+    width: 80px;
+    border: none;
+    overflow: hidden;
+}
+
+.text {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    transform: rotate(180deg);
+}
