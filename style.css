@@ -29,7 +29,7 @@ body {
     left: 39%;
 }
 
-.charging {
+#charging {
     position: absolute;
     background-color: #00E676;
     height: ;
