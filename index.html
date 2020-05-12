@@ -13,14 +13,14 @@
     <div class="container">
         <div class="top"></div>
         <div id="charging"></div>
-        <div class="text">TEXT</div>
+        <div id="text">TEXT</div>
     </div>
     <script>
         $(document).ready(function() {
             navigator.getBattery().then(function(battery) {
                 var level = battery.level;
                 var charge = document.getElementById("charging");
-                $("text").text(level * 100 + "%");
+                $("#text").text(level * 100 + "%");
                 charge.style.height = level * 100 + "%"
             });
         });
